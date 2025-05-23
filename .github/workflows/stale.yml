@@ -19,6 +19,6 @@ jobs:
     steps:
     - uses: actions/stale@v5
       with:
-        repo-token: ${{ secrets.GH_TOKEN }}
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
         stale-issue-message: 'Delete this'
         stale-issue-label: 'Delete this'
