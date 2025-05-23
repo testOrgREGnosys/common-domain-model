@@ -18,7 +18,7 @@ jobs:
 
     steps:
     # - uses: actions/stale@v5
-    - uses: wow-actions/auto-close-fixed-issues@v1
+    - uses: actions/stale@v9.1.0
       with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
         comment: 'Delete-this'
