@@ -19,7 +19,7 @@ jobs:
     steps:
     # - uses: actions/stale@v5
     - uses: actions/checkout@v3
-    - uses: ./.github/actions/customaction2
+    - uses: ./.github/actions/customaction2 #TODO - figure out how to use a custom action
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         days-before-stale: 0
