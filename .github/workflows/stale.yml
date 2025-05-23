@@ -20,5 +20,6 @@ jobs:
     # - uses: actions/stale@v5
     - uses: actions/stale@v9.1.0
       with:
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        comment: 'Delete-this'
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        days-before-stale: 0
+        stale-issue-message: 'delete-this'
