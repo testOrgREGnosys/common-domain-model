@@ -18,7 +18,7 @@ jobs:
 
     steps:
     # - uses: actions/stale@v5
-    - uses: actions/stale@v9.1.0
+    - uses: actions/customaction2@v1.0.0
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         days-before-stale: 0
