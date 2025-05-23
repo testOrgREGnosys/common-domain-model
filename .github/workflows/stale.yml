@@ -20,5 +20,5 @@ jobs:
     # - uses: actions/stale@v5
     - uses: wow-actions/auto-close-fixed-issues@v1
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         comment: 'Delete-this'
